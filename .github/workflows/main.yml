@@ -17,7 +17,7 @@ jobs:
       # Step 2: Modify README.md
       - name: Update README.md
         run: |
-          echo "Last updated on $(date)" >> README.md
+          echo "Last updated on $(date) " >> README.md
 
       # Step 3: Commit and push changes
       - name: Commit and Push Changes
